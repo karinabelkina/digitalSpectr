@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Форма обратной связи</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<section class="question">
+		<div class="container">
+			<div class="form-wrapper">
+				<div class="form">
+					<h1 class="form__title">
+						Задать вопрос
+					</h1>
+				<form action="#" class="form">
+					<input type="text" class="form__input" name="name" placeholder="Фамилия Имя Отчество *" required pattern="^[А-Яа-яЁё\s]+$|[^0-9]">
+					<input type="tel" class="form__input" name="phone" placeholder="Телефон *" required pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
+					<input type="email" class="form__input" name="email" placeholder="E-mail">	
+					<button type="submit" class="send"> Отправить запрос </button>
+				</form>
+				</div>	
+			</div>
+		</div>	
+	</section>
+</body>
+</html>
