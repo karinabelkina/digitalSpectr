@@ -1,3 +1,5 @@
+
+
 body
 {
 	font-family: 'Roboto', sans-serif;
@@ -34,18 +36,18 @@ div, p, form, input, a, span, button
 	border-radius: 12px;
 	box-shadow: 5px 8px 25px #D4D4D4;
 }
-.form
-{
-	
-}
 
-.form__title
+.form-main__title
 {
 	font-weight: bold;
 	color: #3B3D43;
 	padding-top: 40px;
-	padding-bottom: 22px;
+	padding-left: 40px;
 	font-size: 24px;
+}
+.form
+{
+	padding:22px 40px 40px 40px;
 }
 
 .form input
@@ -53,17 +55,18 @@ div, p, form, input, a, span, button
 	width: 401px;
 	font-size: 15px;
     padding: 20px 18px;
-    color: #D0C9D6;
+    color: #3B3D43;
 	font-family: 'Roboto', sans-serif;
 	display: block;
 	margin-bottom: 25px;
 	border: 1px solid #fff;
 	border-radius: 6px;
+	outline-color: #854FC8;
 }
 
-.form input:focus
+input::-webkit-input-placeholder
 {
-	border: 1px solid #854FC8;
+    color: #D0C9D6;
 }
 
 .send
